@@ -151,10 +151,6 @@
                         }
                     });
                     break;
-                //自定义头工具栏右侧图标 - 提示
-                case 'LAYTABLE_TIPS':
-                    layer.alert('这是工具栏右侧自定义的一个图标按钮');
-                    break;
             };
         });
 
@@ -198,8 +194,18 @@
                 success: function (data) {
                     if (state=="on"){
                         layer.msg("上架成功");
+                        table.reload('test',{
+                            url:'admin/findallshopping'
+                            ,where:{
+                            }
+                        })
                     }else{
                         layer.msg("下架成功");
+                        table.reload('test',{
+                            url:'admin/findallshopping'
+                            ,where:{
+                            }
+                        })
                     }
 
                 }

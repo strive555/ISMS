@@ -25,7 +25,7 @@
     <div class="layui-form-item">
         <label class="layui-form-label" style="width: 100px">消息类型</label>
         <div class="layui-input-block" >
-            <input type="radio" name="type" value="公告" title="公告"checked=""lay-filter="radio1" >
+            <input type="radio" name="type" value="公告" title="公告" checked=""lay-filter="radio1" >
             <input type="radio" name="type" value="紧急任务" title="紧急任务"lay-filter="radio1" >
             <input type="radio" name="type" value="日常任务" title="日常任务"lay-filter="radio1"
             >

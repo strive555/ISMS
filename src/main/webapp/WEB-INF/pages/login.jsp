@@ -22,7 +22,7 @@
         background-size: 100% 100%;
     }
     .login-container {
-        width: 380px;
+        width: 350px;
         height: 280px;
         border: 1px solid #dddddd;
         margin: auto;
